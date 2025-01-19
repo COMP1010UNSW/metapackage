@@ -23,6 +23,11 @@ dependencies = [
     "numpy (>=2.2.2,<3.0.0)",
 ]
 
+[project.scripts]
+comp1010 = "comp1010.__main__:main"
+
+[tool.poetry]
+packages = [{ include = "comp1010" }]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
