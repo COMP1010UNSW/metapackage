@@ -12,7 +12,7 @@ from sys import version_info as version
 from colorama import Fore
 from subtask import Subtask
 
-__version__ = "1.1.0"
+from comp1010 import __version__
 
 IMPORTANT_PACKAGES = ["pyhtml-enhanced", "pyhtml", "Flask"]
 """
