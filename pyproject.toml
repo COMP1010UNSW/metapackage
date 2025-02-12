@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.12,<4.0"
 dependencies = [
     "flask (>=3.1.0,<4.0.0)",
-    "pyhtml-enhanced (>=2.1.0,<3.0.0)",
+    "pyhtml-enhanced (>=2.2.0,<3.0.0)",
     "subtask (>=1.1.1,<2.0.0)",
     "pytest (>=8.3.4,<9.0.0)",
     "jestspectation (>=1.4.3,<2.0.0)",

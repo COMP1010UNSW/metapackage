@@ -1161,14 +1161,14 @@ windows-terminal = ["colorama (>=0.4.6)"]
 
 [[package]]
 name = "pyhtml-enhanced"
-version = "2.1.0"
+version = "2.2.0"
 description = "A library for building HTML documents with a simple and learnable syntax"
 optional = false
-python-versions = "<4.0,>=3.9"
+python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "pyhtml_enhanced-2.1.0-py3-none-any.whl", hash = "sha256:cb87c88cafdb7c50e8a1a572e1afb086eff1a5b1989a96dceb4cffbb8eb7b455"},
-    {file = "pyhtml_enhanced-2.1.0.tar.gz", hash = "sha256:e7c267f65037981d45c8965b39adda4394fb05f71c6ee2221f06fcdc38ddbbc2"},
+    {file = "pyhtml_enhanced-2.2.0-py3-none-any.whl", hash = "sha256:b561c8a4e3d8fc5f1942544c5b70b21e3fc553b94ad902f0474e545af6102b92"},
+    {file = "pyhtml_enhanced-2.2.0.tar.gz", hash = "sha256:7c47687791a6209ad95bfa54149576bafec7f76441490ea0975752530f799f8e"},
 ]
 
 [[package]]
@@ -1603,4 +1603,4 @@ watchdog = ["watchdog (>=2.3)"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12,<4.0"
-content-hash = "45174a3bfc3a621371528a17e131131df185850d5d8ae75902617f6dc3e7933b"
+content-hash = "eeec2c0c46d4383d53cc2dbc3962faffd2fdfb452d24a9620941516d7326b2be"
