@@ -11,7 +11,6 @@ requires-python = ">=3.12"
 dependencies = [
     "flask (>=3.1.0,<4.0.0)",
     "pyhtml-enhanced (>=2.2.0,<3.0.0)",
-    "subtask (>=1.1.1,<2.0.0)",
     "pytest (>=8.3.4,<9.0.0)",
     "jestspectation (>=1.4.3,<2.0.0)",
     "ipykernel (>=6.29.5,<7.0.0)",
@@ -22,6 +21,7 @@ dependencies = [
     "colorama (>=0.4.6,<0.5.0)",
     "types-colorama (>=0.4.15.20240311,<0.5.0.0)",
     "numpy (>=2.2.2,<3.0.0)",
+    "subtask (>=1.1.2,<2.0.0)",
 ]
 license = { file = "LICENSE.md" }
 
