@@ -14,7 +14,7 @@ pip install comp1010
 MacOS
 
 ```sh
-pip3 install comp1010
+pip3 install --user comp1010
 ```
 
 ## Troubleshooting
