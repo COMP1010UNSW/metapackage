@@ -7,6 +7,7 @@ utility to display helpful debug information.
 
 import json
 from os import uname
+from sys import executable
 from sys import version_info as version
 
 from colorama import Fore
@@ -49,7 +50,7 @@ def get_packages_info() -> dict[str, str]:
     """
     Return package info as a mapping between packages and their versions.
     """
-    pip = Subtask(["pip", "list", "--format", "json"])
+    pip = Subtask([executable, "-m", "pip", "list", "--format", "json"])
     pip.wait()
     packages = json.loads(pip.read_stdout())
 

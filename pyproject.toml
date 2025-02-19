@@ -1,6 +1,6 @@
 [project]
 name = "comp1010"
-version = "25.1.3"
+version = "25.1.4"
 description = "The COMP1010 metapackage, used to specify dependencies required for UNSW's COMP1010 course."
 authors = [
     { name = "COMP1010 UNSW", email = "cs1010@cse.unsw.edu.au" },
