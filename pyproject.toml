@@ -1,13 +1,13 @@
 [project]
 name = "comp1010"
-version = "25.1.5"
+version = "25.1.6"
 description = "The COMP1010 metapackage, used to specify dependencies required for UNSW's COMP1010 course."
 authors = [
     { name = "COMP1010 UNSW", email = "cs1010@cse.unsw.edu.au" },
     { name = "Maddy Guthridge", email = "hello@maddyguthridge.com" },
 ]
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.11"
 dependencies = [
     "flask (>=3.1.0,<4.0.0)",
     "pyhtml-enhanced (>=2.2.0,<3.0.0)",
