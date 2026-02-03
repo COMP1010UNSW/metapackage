@@ -1,7 +1,13 @@
 # COMP1010 Metapackage
 
-The COMP1010 metapackage, used to specify dependencies required for UNSW's
+The COMP1010 metapackage, which was used to specify dependencies required for UNSW's
 COMP1010 course.
+
+## Deprecated
+
+This package is deprecated and unmaintained as of 2026. This is because COMP1010 is
+now teaching proper dependency management using the excellent [`uv`](https://docs.astral.sh/uv/)
+dependency management tool.
 
 ## Installing
 
